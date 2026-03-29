@@ -4,7 +4,6 @@ import Liam2 from "./assets/liam2.jpeg";
 import Moose from "./assets/moose.jpeg";
 import Storm from "./assets/storm.jpeg";
 import Cats from "./assets/cats.jpeg";
-import { useMemo } from 'react';
 
 function App() {
   const index = Math.floor(Math.random() * 5);
@@ -26,6 +25,7 @@ function App() {
       img = Cats;
       break;
   }
+
   return (
     <>
       {/* <img src={Liam} alt="a side profile of a sitting golden retriever, nose up, smiling" width="604" height="1304" /> */}
