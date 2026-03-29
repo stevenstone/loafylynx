@@ -12,6 +12,8 @@ p {
 
 button {
     border-color: var(--text);
+    border-style: solid;
+    border-radius: 8px;
     color: var(--text);
     cursor: pointer;
     background-color: var(--bg);
