@@ -26,14 +26,14 @@ export const Idyllic: FC = () => {
 
                     <p>Clone Position</p>
                     <div className="clock-buttons">
-                        <button type="button" data-pos="N" className={clonePosition === "N" ? "active" : ""} onClick={() => setClonePosition("N")}>N</button>
-                        <button type="button" data-pos="NE" className={clonePosition === "NE" ? "active" : ""} onClick={() => setClonePosition("NE")}>NE</button>
-                        <button type="button" data-pos="E" className={clonePosition === "E" ? "active" : ""} onClick={() => setClonePosition("E")}>E</button>
-                        <button type="button" data-pos="SE" className={clonePosition === "SE" ? "active" : ""} onClick={() => setClonePosition("SE")}>SE</button>
-                        <button type="button" data-pos="S" className={clonePosition === "S" ? "active" : ""} onClick={() => setClonePosition("S")}>S</button>
-                        <button type="button" data-pos="SW" className={clonePosition === "SW" ? "active" : ""} onClick={() => setClonePosition("SW")}>SW</button>
-                        <button type="button" data-pos="W" className={clonePosition === "W" ? "active" : ""} onClick={() => setClonePosition("W")}>W</button>
-                        <button type="button" data-pos="NW" className={clonePosition === "NW" ? "active" : ""} onClick={() => setClonePosition("NW")}>NW</button>
+                        <button type="button" data-pos="N" className={clonePosition === "N" ? "active" : ""} onClick={() => setClonePosition("N")}>N (1)</button>
+                        <button type="button" data-pos="NE" className={clonePosition === "NE" ? "active" : ""} onClick={() => setClonePosition("NE")}>NE (2)</button>
+                        <button type="button" data-pos="E" className={clonePosition === "E" ? "active" : ""} onClick={() => setClonePosition("E")}>E (3)</button>
+                        <button type="button" data-pos="SE" className={clonePosition === "SE" ? "active" : ""} onClick={() => setClonePosition("SE")}>SE (4)</button>
+                        <button type="button" data-pos="S" className={clonePosition === "S" ? "active" : ""} onClick={() => setClonePosition("S")}>S (1)</button>
+                        <button type="button" data-pos="SW" className={clonePosition === "SW" ? "active" : ""} onClick={() => setClonePosition("SW")}>SW (2)</button>
+                        <button type="button" data-pos="W" className={clonePosition === "W" ? "active" : ""} onClick={() => setClonePosition("W")}>W (3)</button>
+                        <button type="button" data-pos="NW" className={clonePosition === "NW" ? "active" : ""} onClick={() => setClonePosition("NW")}>NW (4)</button>
                     </div>
                     <hr />
 

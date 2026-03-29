@@ -1,4 +1,3 @@
-import './App.css';
 import Liam from "./assets/liam.jpeg";
 import Liam2 from "./assets/liam2.jpeg";
 import Moose from "./assets/moose.jpeg";
