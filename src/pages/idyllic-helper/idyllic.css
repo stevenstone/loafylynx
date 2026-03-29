@@ -35,7 +35,7 @@ button.active {
 
 .half {
     width: 50%;
-    border-right: solid var(--text) 1px;
+    /* border-right: solid var(--text) 1px; */
     height: 100%;
     margin-right: 1rem;
 }

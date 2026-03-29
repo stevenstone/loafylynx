@@ -74,7 +74,7 @@ export const Idyllic: FC = () => {
                 </fieldset>
             </div>
 
-            <div className="half">
+            {/* <div className="half">
                 <h2>Recall!</h2>
                 <fieldset>
                     <legend>Clones and Tethers 1</legend>
@@ -83,10 +83,6 @@ export const Idyllic: FC = () => {
                         <dd>Go {coneZone} with your light party</dd>
                     </dl>
                 </fieldset>
-
-                {/* <fieldset>
-                    <legend>Platforms and Towers 1</legend>
-                </fieldset> */}
 
                 <fieldset>
                     <legend>Clones and Tethers 2</legend>
@@ -123,7 +119,7 @@ export const Idyllic: FC = () => {
                         <dd>{safePlatform}</dd>
                     </dl>
                 </fieldset>
-            </div>
+            </div> */}
         </div>
     );
 }
