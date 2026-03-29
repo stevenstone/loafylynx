@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Routes>
-      <Route index element={<img src={images[index]} />} />
+      <Route index element={<div className="frame"><img src={images[index]} /></div>} />
       <Route path="/idyllic" element={<Idyllic />} />
     </Routes>
   )

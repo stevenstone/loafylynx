@@ -1,7 +1,3 @@
-#root {
-    display: initial;
-}
-
 fieldset {
     display: block;
     text-align: left;
@@ -41,6 +37,7 @@ button.active {
 }
 
 .clock-buttons {
+    anchor-name: --tethers;
     position: relative;
     height: 10rem;
 
@@ -88,4 +85,11 @@ button.active {
             top: 25%;
         }
     }
+}
+
+.tether-help {
+    margin-left: 1rem;
+    position: absolute;
+    position-anchor: --tethers;
+    position-area: right;
 }

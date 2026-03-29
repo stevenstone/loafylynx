@@ -50,7 +50,7 @@
   }
 }
 
-#root {
+.frame {
   text-align: center;
   min-height: 100svh;
   display: flex;
